@@ -1,0 +1,18 @@
+node_modules/
+.next/
+out/
+dist/
+*.log
+.DS_Store
+
+# exportación estática (regenerable con npm run build)
+/_next/
+/assets/
+/index.html
+/index.txt
+/404.html
+
+/node_modules
+/.next
+/out
+/dist

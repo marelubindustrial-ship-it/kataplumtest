@@ -1,0 +1,28 @@
+{
+  "name": "kataplum-parque",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sitio web de Kataplum - parque de diversiones con mapa interactivo, venta de boletos y asistente virtual",
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build && rm -rf dist && cp -r out dist",
+    "start": "npx -y serve@latest dist -l 3000",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "gsap": "^3.12.5",
+    "lucide-react": "^0.453.0",
+    "next": "^14.2.33",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.14",
+    "typescript": "^5.6.3"
+  }
+}
